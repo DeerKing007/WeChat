@@ -5,9 +5,6 @@
 
 开发环境：Python >= 3.6
 
-### 项目地址：
-Github: [https://github.com/DeerKing007/WeChat](https://github.com/DeerKing007/WeChat)。
-
 ### 使用库
 - [itchat][2] - 微信个人号接口
 - [requests][3] - 网络请求库
@@ -21,11 +18,6 @@ Github: [https://github.com/DeerKing007/WeChat](https://github.com/DeerKing007/W
 - 每日一句和上面的大佬一样也是来自：[ONE●一个][6]。
 - 天气信息来自： [SOJSON][7] 。
 - 土味情话： [api](http://open.iciba.com/?c=api)。
-
-
-### 实现效果
-![命令行信息](http://vlog.sfyc23.xyz/wechat_everyday/20190312010620.png)  
-![微信截图](http://vlog.sfyc23.xyz/wechat_everyday/20190312010621.png)
 
 ## 代码说明
 
@@ -150,17 +142,17 @@ dictum_channel: 2
 girlfriend_infos:
   -
     #女友微信昵称
-    wechat_name: '古典'
-    #女友所在桂林
-    city_name: '桂林'
+    wechat_name: '一鹿同行'
+    #女友所在地址
+    city_name: '北京'
     # 从那天开始勾搭的（可空）
-    start_date: '2017-11-11'
+    start_date: '2018-10-20'
     # 短句的最后留言（可空）
     sweet_words: '来自最爱你的我。'
 
   #如果有你多个人需要发送，则参照这个样式，复制即可
   -
-    wechat_name: '陈老师'
+    wechat_name: 'xxx'
     city_name: '朝阳区'
     start_date: '2018-11-11'
     sweet_words: '来自你俊美的老公。'
